@@ -1,0 +1,29 @@
+<?php
+//get username
+$user = $_GET['u'];
+?>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/chatstyle.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Sniper Chat</title>
+	</head>
+	<body>
+	<div class="SniperChat-Container">
+	<?php /*this is where the name of the use and the logo of the i.m. goes.*/?>
+		<div id ="Sniper-im-header">
+			<img  src="image/sniper_im_logo.png">
+			<h3>Greeting<?php echo ucwords($user)?></h3>
+		</div>
+	<?php /*This is where */?>
+		<div class="sniper-im-Message"></div>
+		<div class="sniper-im-bottom">
+			<form action ='#' onSubmit="return false;" id="sniperchatForm">
+				<input type="hidden" id='usrname' value="<?php echo $user; ?>"/>
+				<input type="text" id="usrtext"  placeholder="Enter You Message." value=""/>
+				<input type="submit" name="submit" value="Send"/>
+			</form>
+		</div>
+  </div>
+</body>
+</html>

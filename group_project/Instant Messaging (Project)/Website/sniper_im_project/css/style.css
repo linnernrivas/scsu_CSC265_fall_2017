@@ -1,0 +1,101 @@
+html{
+	width:100%;
+}
+
+a {
+    float: right;
+}
+
+h2 {
+        width: 100px;
+    }
+p {
+    padding-left: 10px;
+}
+.container {
+    width: auto;
+	height:auto;
+	padding: 16px;
+}
+/*This set the style for the Form area.*/
+form {
+    border: 3px solid #f1f1f1;
+	width:100%;
+	height:auto;
+}
+#sniperchatForm {
+    width: 50%;
+}
+/*This set a style for the Signup area.*/
+#Signup{
+	width: 45%;
+	float:left;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sign-left {
+    width: 45%;
+	padding-top: 10px;
+    padding-left: 10px;
+	padding-bottom: 10px;
+}
+input[type="email-text"],
+input[type="password-text"],
+input[type="pswd-repeat-text"] {
+	padding: 10px 15px;
+    width: 150%;
+}
+/*This set a style for the Login area*/
+#login {
+    width: 45%;
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sign-right {
+    width: 45%;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+input[type="text"]{
+	padding: 10px 15px;
+	width: 150%;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+button.login-button {
+    float: left;
+    width: 100%;
+	padding: 5px;
+}
+input#rememberbox {
+    float: left;
+    padding: 10px;
+}
+button.cancel-button {
+    padding: 5px;
+    width: 50%;
+	margin: 1px;
+	background-color: red;
+}
+
+button.cancel-button-signup {
+    background-color: red;
+}
+
+
